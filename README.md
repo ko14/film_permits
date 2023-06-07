@@ -1,7 +1,5 @@
 # film_permits
 
-https://krisorrnyc.com/data-permits
-
 The backend is python and mysql. The frontend uses Google Charts API (https://developers.google.com/chart).
 
 The daily load procedure receives the latest records from the API, which is about 1k. The load procedures reformats the data so that each record in the database table is a unique combo of EventID (aka permit) & zip code (since one permit can have many locations and zip codes).
